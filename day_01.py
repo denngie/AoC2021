@@ -17,7 +17,6 @@ def sliding_depth_compare(input):
 
 def main():
     input = [int(n) for n in get_data(day=1, year=2021).splitlines()]
-    input = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
     print(depth_compare(input))
     print(sliding_depth_compare(input))
 
